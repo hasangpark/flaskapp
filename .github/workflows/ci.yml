@@ -23,5 +23,5 @@ jobs:
         image: pdddangha/github-actions-app
         tags: v3, latest
         registry: docker.io
-        username: pdddangha 
+        username: ${{ secrets.DOCKER_USERNAME }}
         password: qkrtkdgk98!
